@@ -1,7 +1,7 @@
 package com.raven;
 
 public class BcryptImplementation {
-	private static int workload = 12;
+	private static int workload = 10;
 
 	public static String generatePassword(String plainText) {
 		String salt = BCrypt.gensalt(workload);
